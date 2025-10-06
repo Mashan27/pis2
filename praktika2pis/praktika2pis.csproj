@@ -44,9 +44,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Buisness.cs" />
+    <Compile Include="BusinessAnalyzer.cs" />
+    <Compile Include="BusinessParser.cs" />
+    <Compile Include="FileProcessor.cs" />
     <Compile Include="Income.cs" />
+    <Compile Include="IncomeParser.cs" />
+    <Compile Include="OrganizationIncome.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TypedIncome.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

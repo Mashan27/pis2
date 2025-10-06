@@ -6,14 +6,20 @@ using System.Threading.Tasks;
 
 namespace praktika2pis
 {
-    internal class Buisness
+    /// <summary>
+    /// Класс для представления бизнеса
+    /// </summary>
+    public class Buisness
     {
-        public string name { get; set; }
-        public int countEmployers { get; set; }
+        public string Name { get; set; }
+        public int CountEmployees { get; set; }
 
+        /// <summary>
+        /// Возвращает строковое представление объекта
+        /// </summary>
         public override string ToString()
         {
-            return $"Название компании: {name}, Количество сотрудников: {countEmployers}";
+            return $"Название компании: {Name}, Количество сотрудников: {CountEmployees}";
         }
     }
 }
